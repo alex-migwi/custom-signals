@@ -76,8 +76,28 @@ This is what makes signal both:
 
 This pattern makes ```signal``` **look like a function but behave like a reactive variable**, similar to **Angular Signals!** 🚀
 
+## Run the code
+To run the code samples:
+1. Make sure you have typescript compiler:
+```npm install -g typescript```
+  * You can test your install by checking the version or help.
+```
+tsc --version
+tsc --help
+```
+2. In your terminal, type for example ```tsc UpdatedComputedSimpleSignalUsage.ts```.
+  * You should now see a transpiled file ```UpdatedComputedSimpleSignalUsage.js```, a javascript file.
 
+3. Run it using ```Node.js``` by typing ```node UpdatedComputedSimpleSignalUsage.js```
 
+Example output:
+```
+Double count: 4
+Double count: 8
+```
+
+If you like it star it.
+Happy coding! :)
 
 
 
