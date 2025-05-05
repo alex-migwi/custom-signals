@@ -21,3 +21,4 @@ count.effect(() => {
 
 count.set(10); // Logs: "Count changed to: 10"
 count.set(20); // Logs: "Count changed to: 20"
+count.set(100);
